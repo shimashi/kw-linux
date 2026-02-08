@@ -17,11 +17,11 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -
 apt install /tmp/google-chrome-stable_current_amd64.deb -y
 wget https://cdn.novabench.net/novabench-x64.tar.gz
 tar xvf novabench-x64.tar.gz
-#wget https://novabench.com/files/novabench-x64.deb  -O /tmp/novabench-x64.deb
-#apt install /tmp/novabench-x64.deb -y
+./harden_debian_simple.sh
 
 #KindWorks Stuff
 wget https://github.com/LenovoGuy98/kw-startup-go/raw/refs/heads/master/
 ./kw-install.sh
+
 
 
